@@ -63,15 +63,3 @@ a {
 a:hover {
     color: orange;
 }
-
-.item1 {
-    order: 2;
-}
-
-.item2 {
-    order: 3;
-}
-
-.item3 {
-    order: 1
-}
