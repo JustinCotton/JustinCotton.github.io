@@ -1,0 +1,63 @@
+body {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, footer {
+    padding: 10px;
+    background: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-image: url("Foundry.jpg");
+    background-size: cover;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    font: 14pt Comic Sans MS;
+    text-align: center;
+    line-height: 100px;
+    margin: 10px;
+    /* background-color: rgba(0, 0, 0, 1);} */
+    background-image: linear-gradient(to bottom right, red , yellow);
+}
+
+/* .box a:hover {
+    background-color: rgba(0, 0, 0, 0.1);}
+    background-image: linear-gradient(to bottom right, red , yellow);
+} */
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+a:hover {
+    color: orange;
+}
+
+.item1 {
+    order: 2;
+}
+
+.item2 {
+    order: 3;
+}
+
+.item3 {
+    order: 1
+}
