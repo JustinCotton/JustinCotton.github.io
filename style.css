@@ -8,19 +8,20 @@ body {
 
 header, footer {
     padding: 10px;
-    background: rgba(0,0,0,0.5);
     color: white;
     border-radius: 20px;
 }
 
 header {
-    font-family: 'El Messiri', sans-serif;
-    font-size: 50px;
+    font-family: 'Playball', cursive;
+    font-size: 60px;
+    background: rgba(0,0,0,0.3);
 }
 
 footer {
     font-family: 'El Messiri', sans-serif;
     font-size: 30px;
+    background: none;
 }
 
 .container {
