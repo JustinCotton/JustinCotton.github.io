@@ -1,26 +1,37 @@
 body {
     height: 100%;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
+    background-image: url("Foundry.jpg");
+    background-size: cover;
 }
 
 header, footer {
     padding: 10px;
-    background: black;
+    background: rgba(0,0,0,0.5);
     color: white;
+    border-radius: 20px;
+}
+
+header {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 50px;
+}
+
+footer {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 30px;
 }
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     height: 100%;
-    width: 80%;
+    width: 60%;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0 auto;
-    background-image: url("Foundry.jpg");
-    background-size: cover;
+    margin: 7% 7% 7% 40%;
 }
 
 .box {
@@ -28,12 +39,14 @@ header, footer {
     height: 100px;
     padding: 10px;
     border-radius: 10px;
-    font: 14pt Comic Sans MS;
     text-align: center;
     line-height: 100px;
     margin: 10px;
-    /* background-color: rgba(0, 0, 0, 1);} */
-    background-image: linear-gradient(to bottom right, red , yellow);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Monoton', cursive;
+    font-size: 30px;
+    /* background-image: linear-gradient(to bottom right, red , yellow); */
 }
 
 /* .box a:hover {
