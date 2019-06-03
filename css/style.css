@@ -22,21 +22,32 @@ footer {
     font-family: 'El Messiri', sans-serif;
     font-size: 30px;
     background: none;
+    display: block;
+    clear: both;
+    margin: 15% 0 0 0;
+}
+
+.headshot {
+    width: 350px;
+    border-radius: 70px;
+    /* display: inline-block; */
+    float: left;
 }
 
 .container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    /* display: inline-block; */
+    /* float: right; */
+    /* justify-content: flex-end; */
+    /* align-items: center; */
     height: 100%;
     width: 60%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 7% 7% 7% 40%;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    margin: 0% 7% 7% 55%;
 }
 
 .box {
-    width: 200px;
+    width: 150px;
     height: 100px;
     padding: 10px;
     border-radius: 10px;
@@ -46,7 +57,7 @@ footer {
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     font-family: 'Monoton', cursive;
-    font-size: 30px;
+    font-size: 25px;
     display: inline-block;
     /* background-image: linear-gradient(to bottom right, red , yellow); */
 }
