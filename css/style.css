@@ -24,7 +24,7 @@ footer {
     background: none;
     display: block;
     clear: both;
-    margin: 15% 0 0 0;
+    margin: 25% 0 0 0;
 }
 
 .headshot {
@@ -40,7 +40,7 @@ footer {
     /* justify-content: flex-end; */
     /* align-items: center; */
     height: 100%;
-    width: 60%;
+    width: 46%;
     /* flex-direction: row; */
     /* flex-wrap: wrap; */
     margin: 0% 7% 7% 55%;
