@@ -19,7 +19,8 @@ header {
 }
 
 footer {
-    font-family: 'El Messiri', sans-serif;
+    /* font-family: 'El Messiri', sans-serif; */
+    font-family: 'Playball', cursive;
     font-size: 30px;
     background: none;
     display: block;
@@ -32,6 +33,7 @@ footer {
     border-radius: 70px;
     /* display: inline-block; */
     float: left;
+    margin: 40px;
 }
 
 .container {
@@ -56,10 +58,15 @@ footer {
     margin: 10px;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
-    font-family: 'Monoton', cursive;
-    font-size: 25px;
+    /* font-family: 'Monoton', cursive; */
+    font-family: 'Playball', cursive;
+    font-size: 40px;
     display: inline-block;
     /* background-image: linear-gradient(to bottom right, red , yellow); */
+}
+
+.subtitle {
+    font-size: 35px;
 }
 
 /* .box a:hover {
@@ -74,4 +81,8 @@ a {
 
 a:hover {
     color: orange;
+}
+
+header a {
+    font-size: 30px;
 }
