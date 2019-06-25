@@ -29,11 +29,11 @@ footer {
 }
 
 .headshot {
-    width: 275px;
+    width: 320px;
     border-radius: 70px;
     /* display: inline-block; */
     float: left;
-    margin: 15% 0 0 0;
+    margin: 10% 0 0 0;
 }
 
 .bio {
