@@ -25,15 +25,15 @@ footer {
     background: none;
     display: block;
     clear: both;
-    margin: 25% 0 0 0;
+    margin: 20% 0 0 0;
 }
 
 .headshot {
-    width: 350px;
+    width: 275px;
     border-radius: 70px;
     /* display: inline-block; */
     float: left;
-    margin: 0px;
+    margin: 15% 0 0 0;
 }
 
 .bio {
