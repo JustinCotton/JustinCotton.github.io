@@ -6,6 +6,22 @@ body {
     background-size: cover;
 }
 
+.playoffs {
+    font-family: 'Graduate', cursive;
+}
+
+.planets {
+    font-family: 'Audiowide', cursive;
+}
+
+.monsters {
+    font-family: 'Creepster', cursive;
+}
+
+.blackjacks {
+    font-family: 'Playball', cursive;
+}
+
 header, footer {
     padding: 10px;
     color: white;
@@ -79,7 +95,7 @@ footer {
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     /* font-family: 'Monoton', cursive; */
-    font-family: 'Playball', cursive;
+    /* font-family: 'Playball', cursive; */
     font-size: 40px;
     display: inline-block;
     /* background-image: linear-gradient(to bottom right, red , yellow); */
