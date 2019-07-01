@@ -19,7 +19,8 @@ body {
 }
 
 .blackjacks {
-    font-family: 'Playball', cursive;
+    /* font-family: 'Playball', cursive; */
+    font-family: 'Lobster', cursive;
 }
 
 header, footer {
